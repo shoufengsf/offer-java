@@ -8,7 +8,7 @@ package com.shoufeng.array.question1;
  */
 public class Solution {
     public boolean Find(int target, int[][] array) {
-        if (array == null || array.length == 0 || array[0].length == 0){
+        if (array == null || array.length == 0 || array[0].length == 0) {
             return false;
         }
         //列的长度
