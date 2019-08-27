@@ -10,6 +10,6 @@ import java.util.regex.Pattern;
  */
 public class Solution {
     public boolean match(char[] str, char[] pattern) {
-        return Pattern.matches(String.valueOf(pattern),String.valueOf(str));
+        return Pattern.matches(String.valueOf(pattern), String.valueOf(str));
     }
 }
